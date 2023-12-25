@@ -1,0 +1,58 @@
+.gradient{
+    width: 400px;
+    height: 400px;
+    /* background-color: red; */
+    /* background: linear-gradient(blue,yellow); */
+    
+    background:conic-gradient(red,blue,#ff00ff);
+    /* box-shadow: 10px 10px 2px 0px rgb(130, 126, 126); */
+    /* box-shadow: 10px 4px rgb(21, 21, 30); */
+    /* filter: grayscale(50%); */
+    /* filter: blur(70%); */
+    /* filter: brightness(100%); */
+    /* filter: contrast(70%); */
+}
+
+img{
+    /* filter: blur(90%); */
+    /* filter: contrast(200%); */
+    /* filter: brightness(100%); */
+    /* filter: invert(90%) */
+    /* opacity: 1; */
+
+}
+
+
+ul{
+    /* list-style-type:square; */
+    list-style-type: disc;
+    /* list-style-position: inside; */
+    /* list-style-image: url('./project1.png') ; */
+
+
+ 
+    
+}
+ol{
+    list-style-type:upper-alpha;
+}
+
+a{
+    margin: 20px;
+    text-decoration: none;
+}
+
+/* suado selector */
+/* a:hover{
+    color: #ff00ff;
+    background-color: red;
+} */
+
+/* a:active{
+    color:red;
+    background-color: blue;
+} */
+
+a:visited{
+    color: blueviolet;
+}
